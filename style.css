@@ -1,0 +1,77 @@
+body {
+  color: rgb(120,120,120);
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  background-size: 800px;
+
+
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+  color: #16a9d3;
+  font-size: 55px;
+  padding-top: 50px;
+  margin-left: 80px;
+  line-height: 1.2
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+  font-size: 40px;
+  margin-left: 80px;
+  color: black;
+
+}
+
+#icone{
+
+  width: 5px;
+}
+
+#icone-ios{
+margin-left: 115px;
+margin-top: 65px;
+width: 75%;
+
+}
+
+#icone-google{
+margin-left: 115px;
+margin-top :20px;
+width: 75%;
+box-shadow: 1px -1px -1px #aaa;
+
+}
+
+#ecran1{
+margin-left: 105px;
+margin-top: 55px;
+
+}
+
+#ecran2{
+margin-left: 20px;
+margin-top: 55px;
+
+}
+
+#icone{
+  width: 50%;
+  margin-left: 70px;
+
+}
+
+
+@media all and (max-device-width: 1080px)
+{
+    p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-left: 80px;
+  color: green;
+
+}
+}
